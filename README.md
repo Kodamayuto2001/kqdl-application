@@ -16,4 +16,5 @@
 ```
 事前にcomposeUpしておく
 コンテナに入ってcd app && npm run serveをするか10分程度待つ
+http://localhost:8080/にアクセスする。
 ```
