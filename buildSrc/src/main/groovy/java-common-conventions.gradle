@@ -13,3 +13,7 @@ tasks.named('test') {
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '7.3.3'
+}
