@@ -8,8 +8,8 @@
 
 ## java-application (kqdl-resort-reservation-service)
 ```
-gradle build
-gradle run
+./gradlew build
+./gradlew run
 ```
 
 ## vue-application (kqdl-resort-service-web-ui)
