@@ -1,0 +1,8 @@
+plugins {
+    id 'java'
+}
+
+task generateDir {
+    sourceSets*.java.srcDirs*.each { it.exists() ? println("already exists dir ${it}") : it.mkdirs() }
+    sourceSets*.resources.srcDirs*.each { it.exists() ? println("already exists dir ${it}") : it.mkdirs() }
+}
