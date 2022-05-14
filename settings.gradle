@@ -1,2 +1,0 @@
-rootProject.name = 'kqdl-application'
-include "kqdl-resort-reservation-service"
